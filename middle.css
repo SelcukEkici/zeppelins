@@ -1,0 +1,31 @@
+section-nav ul {
+    list-style: none;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-nav ul li {
+    text-align: center;
+    cursor: pointer;
+}
+
+.section-nav ul li a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.activeLi {
+   width: 66px; 
+   border-bottom: 1px solid #D05270;
+}
+
+.section-nav ul li .active {
+    color: #D05270;
+    font-size: 18px;
+    padding: 3px;
+     
+}

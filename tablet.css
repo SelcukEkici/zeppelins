@@ -1,0 +1,46 @@
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+    gap: 3px;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #424242;
+}
+
+.nav-bar ul li a:hover{
+    color: #5A47AB ;
+    font-weight: 600;
+}
+
+.banner {
+    margin-top: 3rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.buttons a {
+    width: 33%;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    height: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-left a img {
+    padding-right: 1rem;
+    text-align: center;
+}

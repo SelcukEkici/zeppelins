@@ -1,0 +1,84 @@
+.nav-bar {
+    display: none;
+
+}
+
+.icon {
+    display: block;
+}
+
+.banner {
+    margin-top: 3rem;
+}
+
+.banner-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 300px;
+}
+
+.banner-left h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.banner-left h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.banner-right {
+    display: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.buttons a {
+    width: 33%;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    height: 60px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-left a img {
+    padding-right: 2rem;
+    text-align: center;
+}
+
+.section-nav ul {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section-nav .visible {
+    width: 100%;
+}
+
+.section-nav .none {
+    display: none;
+}
+
+@media (max-width:576px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .cards {
+        width: 100%;
+    }
+}
